@@ -1,0 +1,148 @@
+page{
+  height: 100%;
+  background: #0097FF;
+}
+.record{
+  height:100%;
+  position: relative;
+}
+.topBack {
+  width: 100%;
+  height: 240px;
+  background: #0097FF;
+  position: relative;
+
+  .topBackHead {
+    position: absolute;
+    border-radius: 70px;
+    width: 140px;
+    height: 140px;
+    top: 50%;
+    left: 7%;
+    margin-top: -70px;
+  }
+
+  .topBackText {
+    position: absolute;
+    top: 80px;
+    left: 240px;
+    color: white;
+    font-size: 36px;
+  }
+
+  .topBackPos {
+    position: absolute;
+    top: 125px;
+    left: 240px;
+    color: white;
+    font-size: 28px;
+  }
+}
+
+.content{
+  width:94%;
+  height:1000px;
+  background:white;
+  border-radius:50px;
+  margin:0 auto;
+  .nullItem{
+    width:100%;
+    height:50px;
+  }
+}
+.confirm{
+  position:absolute;
+}
+
+.item{
+  margin-top:50px;
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  float:left;
+  margin-left:27px;
+  border:10px solid;
+  position:relative;
+  .itemBg{
+    position:absolute;
+    width:220px;
+    height:220px;
+    left:-15px;
+    top:-20px;
+    z-index: 1;
+  }
+  .itemPic{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    z-index:-1
+  }
+  .commentItem{
+    position:absolute;
+    width:220px;
+    height:220px;
+    left:-15px;
+    top:-20px;
+    z-index:100;
+    border-radius: 50%;
+    .commentView{
+      position:relative;
+
+      .commentText{
+        position:absolute;
+        text-align: center;
+        display: block;
+        font-size: 28px;
+        left: 26%;
+        color:white;
+        top:120px;
+        background: #D4B763;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+
+  }
+  .unLock{
+    position: absolute;
+    width:160px;
+    height:160px;
+    background: #666666;
+    opacity: 0.6;
+    top:10px;
+    left:15px;
+    z-index: 0;
+    border-radius: 80px;
+    .lock{
+      width:60px;
+      height:60px;
+      opacity: 2;
+      left:50px;
+      top:50px;
+      position:absolute;
+      z-index: 3;
+    }
+  }
+}
+.contentTitle{
+  position:absolute;
+  top:190px;
+  width:66%;
+  left:17%;
+  .titlePic{
+    width:100%;
+    height:100px;
+  }
+  .titleTextView{
+    position:absolute;
+    top:8%;
+    width:50%;
+    left:25%;
+    text-align:center;
+    .titleText{
+      font-size:38px;
+      color:white;
+    }
+  }
+}

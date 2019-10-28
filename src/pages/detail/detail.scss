@@ -1,0 +1,142 @@
+.swiper{
+  height:350px;
+}
+.topBarPic{
+  width:100%;
+}
+.goHereDiv{
+  position:absolute;
+  top:285px;
+  right:40px;
+}
+.goHere{
+  position:relative;
+  width:130px;
+  height:130px;
+  border-radius:65px;
+  background: #3B8DFD;
+  .goHereImg{
+    display: block;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:20px;
+    left:50%;
+    margin-left:-25px;
+  }
+  .goHereText{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color:white;
+    position:absolute;
+    top:50px;
+    left:30px;
+  }
+}
+.address{
+  font-size:35px;
+}
+.simpleIntro{
+  width:95%;
+  margin:10px auto;
+  border-bottom: 2px solid #EDEDED;
+  height:150px;
+  .name{
+    font-size:34px;
+    letter-spacing: 4px;
+    font-weight: normal;
+  }
+  .dist{
+    font-size: 28px;
+    letter-spacing: 3px;
+    margin-top:10px;
+  }
+  .otherInfo{
+    margin-top:13px;
+    .rate{
+      display: block;
+      float:left;
+      padding-top:12px;
+      padding-right:20px;
+    }
+    .levelItem{
+      display: block;
+      float: left;
+      font-size: 28px;
+
+    }
+    .tagsItem{
+      display: block;
+      float:left;
+      background: #FDF7F4;
+      color: #C4AF9A;
+      font-size:25px;
+      margin-left:12px;
+      padding-left: 10px;
+      padding:0 10px;
+      border-radius: 4px;
+      margin-top:5px;
+    }
+  }
+}
+.detailInfo{
+  width:90%;
+  margin:20px auto;
+  .infoTitle{
+    font-size:35px;
+    border-bottom:2px solid #EDEDED;
+    height:70px;
+    line-height: 70px;
+  }
+  .infoText{
+    margin-top:20px;
+    text-indent: 2em;
+    font-size:30px;
+    color:gray;
+  }
+  .phoneItem{
+    height:80px;
+    margin-top:15px;
+    border-bottom:2px solid #EDEDED;
+    border-top:2px solid #EDEDED;
+    position:relative;
+    .phoneText{
+      line-height:80px;
+      display: block;
+      float: left;
+      font-size:33px;
+    }
+    .phoneIcon{
+      position:absolute;
+      right:10px;
+      top:20px;
+    }
+  }
+  .timeItem {
+    .timeTitle {
+      margin-top: 20px;
+      font-size: 33px;
+    }
+
+    .timeContent {
+      font-size: 30px;
+      line-height: 50px;
+      color: gray;
+      margin-top: 10px;
+    }
+  }
+}
+.btn{
+  font-size:40px;
+  width:80%;
+  margin:30px auto;
+}
+.detailControl{
+  text-align: center;
+  color:#3B8DFD;
+  font-size:32px;
+  height:55px;
+  line-height: 55px;
+  padding-top:10px;
+}

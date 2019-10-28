@@ -1,0 +1,60 @@
+.rate{
+  width: 95%;
+  margin: 0 auto;
+}
+.head{
+  margin-top:25px;
+  position:relative;
+  .headPic{
+    width:120px;
+    height: 120px;
+    border:2px solid #3B8DFD;
+    border-radius: 5px;
+    float: left;
+  }
+  .headText{
+    float: left;
+    line-height:80px;
+    font-size:38px;
+    display: block;
+    margin-left: 30px;
+  }
+  .headBtn{
+    position:absolute;
+    right:20px;
+    top:10px;
+    width:100px;
+    height:60px;
+    font-size: 32px;
+    line-height:60px;
+  }
+}
+.star{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height:50px;
+  .starText{
+    font-size:32px;
+    display: block;
+    float: left;
+    line-height: 50px;
+  }
+  .starRate{
+    float:left;
+    display: block;
+    margin-left: 20px;
+    line-height: 50px;
+  }
+}
+.addPicText{
+  font-size:32px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.issue{
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  bottom: 20px;
+}
