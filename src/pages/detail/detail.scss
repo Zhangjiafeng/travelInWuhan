@@ -3,6 +3,7 @@
 }
 .topBarPic{
   width:100%;
+  height:350px;
 }
 .goHereDiv{
   position:absolute;
@@ -43,12 +44,12 @@
   border-bottom: 2px solid #EDEDED;
   height:150px;
   .name{
-    font-size:34px;
-    letter-spacing: 4px;
+    font-size:33px;
+    letter-spacing: 2px;
     font-weight: normal;
   }
   .dist{
-    font-size: 28px;
+    font-size: 27px;
     letter-spacing: 3px;
     margin-top:10px;
   }
@@ -58,12 +59,12 @@
       display: block;
       float:left;
       padding-top:12px;
-      padding-right:20px;
+      padding-right:14px;
     }
     .levelItem{
       display: block;
       float: left;
-      font-size: 28px;
+      font-size: 26px;
 
     }
     .tagsItem{
