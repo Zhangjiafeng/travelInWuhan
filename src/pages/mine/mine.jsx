@@ -151,7 +151,7 @@ export default class Mine extends Component {
         </View>
         {this.state.userInfo?<AtButton className='outLogin' onClick={this.outLogin.bind(this)} type='primary'>退出登录</AtButton>:null}
         <View className='policy' onClick={this.displayPolicy.bind(this)}>隐私政策</View>
-        <View className='edition'>1.0.2</View>
+        <View className='edition'>1.0.4</View>
       </View>
     )
   }
