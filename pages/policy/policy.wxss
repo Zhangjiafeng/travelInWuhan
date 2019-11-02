@@ -1,0 +1,23 @@
+
+.policy {
+  width: 90%;
+  margin: 15rpx auto; }
+
+.title {
+  font-size: 34rpx;
+  margin-bottom: 20rpx; }
+
+.smallTitle {
+  font-size: 28rpx;
+  color: #545454;
+  margin-bottom: 20rpx; }
+
+.content {
+  color: #545454;
+  font-size: 26rpx;
+  line-height: 50rpx; }
+
+.ulTitle {
+  font-size: 28rpx;
+  line-height: 50rpx;
+  margin-bottom: 10rpx; }

@@ -1,0 +1,56 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        <block wx:if="{{load == 1}}">
+            <view class="index">
+                <swiper class="swiper" indicator-color="#999" indicator-active-color="#333" circular="{{true}}" indicator-dots="{{true}}" autoplay="{{true}}">
+                    <swiper-item>
+                        <view class="swiperItem">
+                            <image class="topBarPic" src="{{app.state.picUrl + Data.pics[0]}}"></image>
+                        </view>
+                    </swiper-item>
+                    <swiper-item>
+                        <view class="swiperItem">
+                            <image class="topBarPic" src="{{app.state.picUrl + Data.pics[1]}}"></image>
+                        </view>
+                    </swiper-item>
+                    <swiper-item>
+                        <view class="swiperItem">
+                            <image class="topBarPic" src="{{app.state.picUrl + Data.pics[2]}}"></image>
+                        </view>
+                    </swiper-item>
+                </swiper>
+                <view class="goHereDiv" bindtap="handleClickGoHere" data-e-tap-so="this">
+                    <at-button compid="{{$compid__14}}">
+                        <image class="goHereImg" src="{{car}}"></image><text class="goHereText">去这里</text>
+                    </at-button>
+                </view>
+                <view class="simpleIntro">
+                    <view class="name">{{Data.name}}</view>
+                    <view class="dist"><text class="distText">{{Data.address}}</text>
+                    </view>
+                    <view class="otherInfo">
+                        <at-rate compid="{{$compid__15}}"></at-rate><text class="levelItem">{{Data.level}}景区</text>
+                        <view class="tagsItem" wx:for="{{Data.tags}}" wx:for-item="item" wx:for-index="_anonIdx2">{{item}}</view>
+                    </view>
+                </view>
+                <view class="detailInfo">
+                    <view class="infoTitle">景区概况</view>
+                    <view class="infoText"><text>{{detail}}</text>
+                    </view>
+                    <view bindtap="handleDetailChange" class="detailControl" data-e-tap-so="this">{{value}}</view>
+                    <view class="phoneItem" bindtap="makePhoneCall" data-e-tap-so="this"><text class="phoneText">电话:18810157762</text>
+                        <at-icon compid="{{$compid__16}}"></at-icon>
+                    </view>
+                    <view class="timeItem">
+                        <view class="timeTitle">营业时间</view>
+                        <view class="timeContent">{{Data.time}}</view>
+                    </view>
+                    <view class="phoneItem" bindtap="displayComment" data-e-tap-so="this"><text class="phoneText">查看评论</text>
+                        <at-icon compid="{{$compid__17}}"></at-icon>
+                    </view>
+                </view>
+                <at-button compid="{{$compid__18}}">打卡</at-button>
+            </view>
+        </block>
+    </view>
+</block>

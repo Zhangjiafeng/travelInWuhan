@@ -1,0 +1,27 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="rate">
+        <view class="head">
+            <image class="headPic" src="{{app.state.picUrl + info.pic}}"></image><text class="headText">{{info.name}}</text>
+            <at-button compid="{{$compid__22}}">发表</at-button>
+        </view>
+        <view style="{{anonymousState__temp}}"></view>
+        <view class="sceneryInfo"></view>
+        <view class="star"><text class="starText">整体评分</text>
+            <at-rate compid="{{$compid__23}}"></at-rate>
+        </view>
+        <view class="comment">
+            <at-textarea compid="{{$compid__24}}"></at-textarea>
+        </view>
+        <view class="addPicText">添加图片</view>
+        <view class="photo">
+            <block>
+                <block wx:if="{{photoFiles.length === 9}}">
+                    <at-image-picker compid="{{$compid__25}}"></at-image-picker>
+                </block>
+                <block wx:else>
+                    <at-image-picker compid="{{$compid__26}}"></at-image-picker>
+                </block>
+            </block>
+        </view>
+    </view>
+</block>

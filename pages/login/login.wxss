@@ -1,0 +1,24 @@
+
+.img {
+  display: block;
+  margin: 130rpx auto 95rpx;
+  width: 160rpx;
+  height: 160rpx; }
+
+.name {
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 41rpx; }
+
+.info {
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 16rpx;
+  color: #666666; }
+
+.btnStyle {
+  width: 90%;
+  margin: 20rpx auto;
+  color: white;
+  font-size: 32rpx;
+  background: #2396FF; }

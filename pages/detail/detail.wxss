@@ -1,0 +1,124 @@
+
+.swiper {
+  height: 350rpx; }
+
+.topBarPic {
+  width: 100%;
+  height: 350rpx; }
+
+.goHereDiv {
+  position: absolute;
+  top: 285rpx;
+  right: 40rpx; }
+
+.goHere {
+  position: relative;
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 65rpx;
+  background: #3B8DFD; }
+  .goHere .goHereImg {
+    display: block;
+    width: 50rpx;
+    height: 50rpx;
+    position: absolute;
+    top: 20rpx;
+    left: 50%;
+    margin-left: -25rpx; }
+  .goHere .goHereText {
+    display: block;
+    text-align: center;
+    font-size: 22rpx;
+    color: white;
+    position: absolute;
+    top: 50rpx;
+    left: 30rpx; }
+
+.address {
+  font-size: 35rpx; }
+
+.simpleIntro {
+  width: 95%;
+  margin: 10rpx auto;
+  border-bottom: 2rpx solid #EDEDED;
+  height: 150rpx; }
+  .simpleIntro .name {
+    font-size: 33rpx;
+    letter-spacing: 2rpx;
+    font-weight: normal; }
+  .simpleIntro .dist {
+    font-size: 27rpx;
+    letter-spacing: 3rpx;
+    margin-top: 10rpx; }
+  .simpleIntro .otherInfo {
+    margin-top: 13rpx; }
+    .simpleIntro .otherInfo .rate {
+      display: block;
+      float: left;
+      padding-top: 12rpx;
+      padding-right: 14rpx; }
+    .simpleIntro .otherInfo .levelItem {
+      display: block;
+      float: left;
+      font-size: 26rpx; }
+    .simpleIntro .otherInfo .tagsItem {
+      display: block;
+      float: left;
+      background: #FDF7F4;
+      color: #C4AF9A;
+      font-size: 25rpx;
+      margin-left: 12rpx;
+      padding-left: 10rpx;
+      padding: 0 10rpx;
+      border-radius: 4rpx;
+      margin-top: 5rpx; }
+
+.detailInfo {
+  width: 90%;
+  margin: 20rpx auto; }
+  .detailInfo .infoTitle {
+    font-size: 35rpx;
+    border-bottom: 2rpx solid #EDEDED;
+    height: 70rpx;
+    line-height: 70rpx; }
+  .detailInfo .infoText {
+    margin-top: 20rpx;
+    text-indent: 2em;
+    font-size: 30rpx;
+    color: gray; }
+  .detailInfo .phoneItem {
+    height: 80rpx;
+    margin-top: 15rpx;
+    border-bottom: 2rpx solid #EDEDED;
+    border-top: 2rpx solid #EDEDED;
+    position: relative; }
+    .detailInfo .phoneItem .phoneText {
+      line-height: 80rpx;
+      display: block;
+      float: left;
+      font-size: 33rpx; }
+    .detailInfo .phoneItem .phoneIcon {
+      position: absolute;
+      right: 10rpx;
+      top: 20rpx; }
+  .detailInfo .timeItem .timeTitle {
+    margin-top: 20rpx;
+    font-size: 33rpx; }
+  .detailInfo .timeItem .timeContent {
+    font-size: 30rpx;
+    line-height: 50rpx;
+    color: gray;
+    margin-top: 10rpx; }
+
+.btn {
+  font-size: 40rpx;
+  width: 80%;
+  margin: 30rpx auto; }
+
+.detailControl {
+  text-align: center;
+  color: #3B8DFD;
+  font-size: 32rpx;
+  height: 55rpx;
+  line-height: 55rpx;
+  padding-top: 10rpx; }

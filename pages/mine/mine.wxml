@@ -1,0 +1,41 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="mine">
+        <block>
+            <block wx:if="{{userInfo}}">
+                <view class="topBack">
+                    <image class="topBackHead" src="{{userInfo.avatarUrl}}"></image>
+                    <view class="topBackText"><text>{{userInfo.nickName}}</text>
+                    </view>
+                    <view class="topBackPos">{{userInfo.province}} {{userInfo.city}}</view>
+                </view>
+            </block>
+            <block wx:else>
+                <view bindtap="login" class="topBack" data-e-tap-so="this"><text class="loginOrReg">登录/注册</text><text class="loginIntro">登录后可体验更多服务</text>
+                    <at-icon compid="{{$compid__30}}"></at-icon>
+                </view>
+            </block>
+        </block>
+        <view class="divideLine"></view>
+        <view style="{{anonymousState__temp}}" bindtap="handleClickRecord" class="listItem" data-e-tap-so="this">
+            <at-icon compid="{{$compid__31}}"></at-icon><text class="listText">打卡记录</text>
+            <at-icon compid="{{$compid__32}}"></at-icon>
+        </view>
+        <view bindtap="handleClickRoutes" class="listItem" data-e-tap-so="this">
+            <at-icon compid="{{$compid__33}}"></at-icon><text class="listText">路线推荐</text>
+            <at-icon compid="{{$compid__34}}"></at-icon>
+        </view>
+        <view bindtap="handleClickCall" class="listItem" data-e-tap-so="this">
+            <at-icon compid="{{$compid__35}}"></at-icon><text class="listText">联系客服</text>
+            <at-icon compid="{{$compid__36}}"></at-icon>
+        </view>
+        <view bindtap="handleClickAboutUs" class="listItem" data-e-tap-so="this">
+            <at-icon compid="{{$compid__37}}"></at-icon><text class="listText">关于我们</text>
+            <at-icon compid="{{$compid__38}}"></at-icon>
+        </view>
+        <block wx:if="{{userInfo}}">
+            <at-button compid="{{$compid__39}}">退出登录</at-button>
+        </block>
+        <view class="policy" bindtap="displayPolicy" data-e-tap-so="this">隐私政策</view>
+        <view class="edition">1.0.4</view>
+    </view>
+</block>

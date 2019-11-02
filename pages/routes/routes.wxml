@@ -1,0 +1,18 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="routes">
+        <block wx:if="{{markers.length != 0}}">
+            <map longitude="114.4" latitude="30.5" scale="12" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="clickMarker" show-location="{{true}}" polyline="{{polyline}}" show-compass="{{true}}" show-scale="{{true}}" enable-3D="{{true}}" include-points="{{true}}" style="width: 100%; height: 100%;" data-e-markertap-so="this"></map>
+        </block>
+        <at-modal compid="{{$compid__19}}">
+            <at-modal-header>请选择季节和时间</at-modal-header>
+            <at-modal-content>天数：
+                <at-input-number compid="{{$compid__20}}"></at-input-number>
+                <view class="divideLine"></view>季节：
+                <at-radio compid="{{$compid__21}}"></at-radio>
+            </at-modal-content>
+            <at-modal-action>
+                <button bindtap="searchRoute" data-e-tap-so="this">确定</button>
+            </at-modal-action>
+        </at-modal>
+    </view>
+</block>

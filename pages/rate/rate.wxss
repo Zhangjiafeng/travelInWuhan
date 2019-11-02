@@ -1,0 +1,54 @@
+
+.rate {
+  width: 95%;
+  margin: 0 auto; }
+
+.head {
+  margin-top: 25rpx;
+  position: relative; }
+  .head .headPic {
+    width: 120rpx;
+    height: 120rpx;
+    border: 2rpx solid #3B8DFD;
+    border-radius: 5rpx;
+    float: left; }
+  .head .headText {
+    float: left;
+    line-height: 80rpx;
+    font-size: 38rpx;
+    display: block;
+    margin-left: 30rpx; }
+  .head .headBtn {
+    position: absolute;
+    right: 20rpx;
+    top: 10rpx;
+    width: 100rpx;
+    height: 60rpx;
+    font-size: 32rpx;
+    line-height: 60rpx; }
+
+.star {
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+  height: 50rpx; }
+  .star .starText {
+    font-size: 32rpx;
+    display: block;
+    float: left;
+    line-height: 50rpx; }
+  .star .starRate {
+    float: left;
+    display: block;
+    margin-left: 20rpx;
+    line-height: 50rpx; }
+
+.addPicText {
+  font-size: 32rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx; }
+
+.issue {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  bottom: 20rpx; }

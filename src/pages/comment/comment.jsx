@@ -70,6 +70,12 @@ export default class Comment extends Component {
 
   componentDidHide () { }
 
+  handlePreview(item,pic){
+    Taro.previewImage({
+      urls:item.photos,
+      current:pic
+    })
+  }
 
   render(){
     return (
@@ -95,7 +101,7 @@ export default class Comment extends Component {
                           item.photos.map(picItem => {
                             return (
                               <View className='photosView'>
-                                <Image mode='aspectFill' className='photos' src={picItem}/>
+                                <Image onClick={this.handlePreview.bind(this,item,picItem)} mode='aspectFill' className='photos' src={picItem}/>
                               </View>
                             )
                           })

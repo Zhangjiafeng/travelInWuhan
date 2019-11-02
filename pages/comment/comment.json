@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "at-rate": "../../npm/taro-ui/dist/weapp/components/rate/index"
+  },
+  "navigationBarTitleText": "评价"
+}

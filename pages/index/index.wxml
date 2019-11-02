@@ -1,0 +1,34 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="index">
+        <at-search-bar compid="{{$compid__3}}"></at-search-bar>
+        <block wx:if="{{data.length != 0}}">
+            <view class="listItem" bindtap="handleClickList" wx:for="{{loopArray0}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{index}}">
+                <view class="listLeft">
+                    <image class="listImage" src="{{app.state.picUrl + item.$original.picPhoto}}"></image>
+                </view>
+                <view class="listRight">
+                    <view class="address">{{item.$original.name}}</view>
+                    <view class="dist">{{item.$original.simpleAddress}}</view>
+                    <at-rate compid="{{item.$compid__0}}"></at-rate>
+                    <view class="levelItem">{{item.$original.level}}景区</view>
+                    <view class="clear"></view><text class="tagsItem" wx:for="{{item.$original.tags}}" wx:for-item="item0" wx:for-index="_anonIdx2">{{item0}}</text>
+                    <view class="clear"></view>
+                    <block>
+                        <block wx:if="{{item.$original.info}}">
+                            <view>
+                                <at-icon compid="{{item.$compid__1}}"></at-icon>
+                                <view class="flagItem">{{item.$original.info}}</view>
+                            </view>
+                        </block>
+                        <block wx:else>
+                            <view>
+                                <at-icon compid="{{item.$compid__2}}"></at-icon>
+                                <view class="flagItem">{{item.$original.flag}}</view>
+                            </view>
+                        </block>
+                    </block>
+                </view>
+            </view>
+        </block>
+    </view>
+</block>

@@ -1,0 +1,70 @@
+
+.searchBar {
+  width: 90%;
+  margin: 10rpx auto; }
+
+.listItem {
+  width: 95%;
+  margin: 0 auto; }
+
+.listLeft {
+  width: 25%;
+  height: 220rpx;
+  float: left;
+  position: relative;
+  border-bottom: 2rpx solid #F4F4F4; }
+  .listLeft .listImage {
+    border-radius: 10rpx;
+    width: 140rpx;
+    height: 180rpx;
+    position: absolute;
+    top: 20rpx;
+    left: 10rpx; }
+
+.listRight {
+  width: 75%;
+  height: 220rpx;
+  float: left;
+  border-bottom: 2rpx solid #F4F4F4; }
+
+.address {
+  padding-top: 10rpx;
+  font-size: 35rpx; }
+
+.dist {
+  font-size: 28rpx; }
+
+.rate {
+  float: left;
+  margin-top: 11rpx; }
+
+.levelItem {
+  float: left;
+  margin-left: 10rpx;
+  font-size: 26rpx; }
+
+.clear {
+  clear: both; }
+
+.tagsItem {
+  display: block;
+  float: left;
+  background: #FDF7F4;
+  color: #C4AF9A;
+  font-size: 25rpx;
+  margin-right: 10rpx;
+  padding: 0 10rpx;
+  border-radius: 4rpx;
+  margin-top: 5rpx; }
+
+.tagIcon {
+  padding-top: 12rpx;
+  display: block;
+  float: left; }
+
+.flagItem {
+  padding-top: 10rpx;
+  font-size: 25rpx;
+  color: #A3A3A3;
+  padding-left: 20rpx;
+  margin-left: 14rpx; }

@@ -1,0 +1,53 @@
+
+.commentItem {
+  width: 95%;
+  margin: 20rpx auto; }
+
+.userInfo .photo {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  float: left; }
+
+.userInfo .info {
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 20rpx; }
+
+.commentText {
+  margin-top: 20rpx;
+  display: block; }
+
+.photosView {
+  padding: 1%;
+  height: 220rpx;
+  width: 31.33333333333333%;
+  overflow: hidden;
+  float: left;
+  margin-top: 20rpx;
+  display: block; }
+
+.photos {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+  display: block; }
+
+.bottom {
+  text-align: right;
+  width: 100%;
+  font-size: 26rpx;
+  padding-top: 10rpx;
+  line-height: 40rpx;
+  border-bottom: 2rpx solid #DDDDDD; }
+
+.noCommentPic {
+  display: block;
+  width: 260rpx;
+  height: 260rpx;
+  margin: 20% auto 8%; }
+
+.noComment {
+  font-size: 40rpx;
+  text-align: center;
+  color: #1296DB; }

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "at-button": "../../npm/taro-ui/dist/weapp/components/button/index",
+    "at-rate": "../../npm/taro-ui/dist/weapp/components/rate/index",
+    "at-icon": "../../npm/taro-ui/dist/weapp/components/icon/index"
+  },
+  "navigationBarTitleText": "详情"
+}

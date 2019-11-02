@@ -1,0 +1,8 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="login">
+        <image class="img" src="{{head}}"></image>
+        <view class="name">武汉旅游打卡</view>
+        <view class="info">申请获取你的公开信息（昵称、头像等）</view>
+        <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="btnStyle" lang="zh_CN">授权获取头像昵称</button>
+    </view>
+</block>

@@ -1,0 +1,38 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        <block wx:if="{{load == 1}}">
+            <view class="record">
+                <view class="topBack">
+                    <image class="topBackHead" src="{{userInfo.avatarUrl}}"></image>
+                    <view class="topBackText"><text>{{userInfo.nickName}}</text>
+                    </view>
+                    <view class="topBackPos">{{userInfo.province}} {{userInfo.city}}</view>
+                </view>
+                <view class="confirm"></view>
+                <view class="contentTitle">
+                    <image class="titlePic" src="{{titleBg}}"></image>
+                    <view class="titleTextView"><text class="titleText">解锁成就</text>
+                    </view>
+                </view>
+                <view class="content">
+                    <view class="nullItem"></view>
+                    <view class="item" wx:for="{{data}}" wx:for-item="item" wx:for-index="_anonIdx2">
+                        <image class="itemBg" src="{{bg}}"></image>
+                        <image class="itemPic" src="{{app.state.picUrl + item.picPhoto}}"></image>
+                        <block wx:if="{{!item.unLock}}">
+                            <view class="unLock">
+                                <image class="lock" src="{{lock}}"></image>
+                            </view>
+                        </block>
+                        <block wx:if="{{item.isAbleToRate}}">
+                            <view class="commentItem" bindtap="touchToRate" data-e-tap-so="this" data-e-tap-a-a="{{item}}">
+                                <view class="commentView"><text class="commentText">去评价</text>
+                                </view>
+                            </view>
+                        </block>
+                    </view>
+                </view>
+            </view>
+        </block>
+    </view>
+</block>

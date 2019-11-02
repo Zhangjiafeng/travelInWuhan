@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "at-button": "../../npm/taro-ui/dist/weapp/components/button/index",
+    "at-rate": "../../npm/taro-ui/dist/weapp/components/rate/index",
+    "at-textarea": "../../npm/taro-ui/dist/weapp/components/textarea/index",
+    "at-image-picker": "../../npm/taro-ui/dist/weapp/components/image-picker/index"
+  },
+  "navigationBarTitleText": "发表评价"
+}

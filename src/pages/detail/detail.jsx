@@ -118,7 +118,7 @@ export default class Detail extends Component {
             success(res){
               const latitude=res.latitude;
               const longitude=res.longitude;
-              const minValue=1.5;
+              const minValue=1.8;
               let val1=Math.abs(lat-latitude)
               let val2=Math.abs(lng-longitude);
               let distance=that.GetDistance(lat,lng,latitude,longitude)

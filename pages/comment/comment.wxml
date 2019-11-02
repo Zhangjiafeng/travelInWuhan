@@ -1,0 +1,37 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        <block wx:if="{{load == 1}}">
+            <view class="comment">
+                <block>
+                    <block wx:if="{{data.length != 0}}">
+                        <view>
+                            <view class="commentItem" wx:for="{{loopArray3}}" wx:for-item="item" wx:for-index="_anonIdx4">
+                                <view class="userInfo">
+                                    <image class="photo" src="{{item.$original.avatarUrl}}"></image>
+                                    <view class="info"><text class="infoText">{{item.$original.nickName}}</text>
+                                        <at-rate compid="{{item.$compid__27}}"></at-rate>
+                                    </view>
+                                </view>
+                                <view style="{{item.$loopState__temp2}}"></view>
+                                <view class="commentText">{{item.$original.comment}}</view>
+                                <view class="commentPics">
+                                    <view class="photosView" wx:for="{{item.$original.photos}}" wx:for-item="picItem" wx:for-index="_anonIdx2">
+                                        <image mode="aspectFill" class="photos" src="{{picItem}}"></image>
+                                    </view>
+                                </view>
+                                <view style="{{item.$loopState__temp4}}"></view>
+                                <view class="bottom">打卡日期：{{item.$original.date}}</view>
+                            </view>
+                        </view>
+                    </block>
+                    <block wx:else>
+                        <view>
+                            <image class="noCommentPic" src="{{noMore}}"></image>
+                            <view class="noComment">暂时没有评论</view>
+                        </view>
+                    </block>
+                </block>
+            </view>
+        </block>
+    </view>
+</block>
