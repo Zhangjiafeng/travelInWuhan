@@ -1,20 +1,20 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\23876\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react --silent --no-progress
+  /usr/local/bin/node /usr/local/bin/yarn install
 
 PATH: 
-  C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;D:\weapp\myApp\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;D:\weapp\myApp\node_modules\.bin;D:\weapp\myApp\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;D:\software\flutter_windows_v1.9.1+hotfix.2-stable\flutter\bin;D:\program\Git\cmd;D:\program\putty\;C:\Users\23876\AppData\Local\Microsoft\WindowsApps;C:\Users\23876\AppData\Roaming\npm;D:\program\WebStorm 2019.2.2\bin;;D:\program\Microsoft VS Code\bin
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/puppetlabs/bin:/usr/local/munki:/Users/bytedance/Desktop/travelInWuhan/node_modules/.bin
 
 Yarn version: 
-  1.17.3
+  1.22.4
 
 Node version: 
-  12.10.0
+  12.16.1
 
 Platform: 
-  win32 x64
+  darwin x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'D:\weapp\myApp\node_modules\acorn-dynamic-import\node_modules\.bin'
+  Error: ENOENT: no such file or directory, copyfile '/Users/bytedance/Library/Caches/Yarn/v6/npm-ansi-styles-2.2.1-b432dd3358b634cf75e1e4664368240533c1ddbe-integrity/node_modules/ansi-styles/index.js' -> '/Users/bytedance/Desktop/travelInWuhan/node_modules/node-sass/node_modules/ansi-styles/index.js'
 
 npm manifest: 
   {
@@ -60,6 +60,7 @@ npm manifest:
       "@tarojs/taro-weapp": "1.3.18",
       "nerv-devtools": "^1.4.0",
       "nervjs": "^1.4.0",
+      "react": "^16.11.0",
       "taro-ui": "^2.2.3"
     },
     "devDependencies": {
